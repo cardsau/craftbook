@@ -218,9 +218,9 @@ public class SignUtil {
             case 0x3:
                     return BlockFace.SOUTH;
             case 0x4:
-                    return BlockFace.EAST;
-            case 0x5:
                     return BlockFace.WEST;
+            case 0x5:
+                    return BlockFace.EAST;
             default:
                     return BlockFace.SELF;
             }
@@ -269,9 +269,9 @@ public class SignUtil {
             case 0x3:
                     return BlockFace.NORTH;
             case 0x4:
-                    return BlockFace.WEST;
-            case 0x5:
                     return BlockFace.EAST;
+            case 0x5:
+                    return BlockFace.WEST;
             default:
                     return BlockFace.SELF;
             }
